@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "firebase": "^9.8.2",
     "install": "^0.13.0",
     "next": "latest",
     "react": "^17.0.2",
