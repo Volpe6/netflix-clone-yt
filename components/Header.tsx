@@ -2,6 +2,7 @@ import { SearchIcon, BellIcon } from '@heroicons/react/solid';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import useAuth from '../hooks/useAuth';
+import BasicMenu from './BasicMenu';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,6 +32,8 @@ function Header() {
                 width={100} 
                 height={100} 
             />
+            
+            <BasicMenu />
 
             <ul className="hidden space-x-4 md:flex">
                 <li className="headerlink">Home</li>
